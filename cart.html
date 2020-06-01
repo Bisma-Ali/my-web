@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand" href="#">Fashion</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#category">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Your Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="cartone" style=>
+        <img src="images/supermarket.png" alt="">
+        Your Cart
+    </div>
+
+    <div class="cartpic">
+        <ul>
+            <li class="cartpic1">
+                <div class="card" style="border: 1px rgb(94, 22, 22) solid;">
+                    <img src="images/khaddar.jpg" height="300px" class="card-img" alt="...">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary"
+                            style="background-color:rgb(94, 22, 22) ;">-</button>
+                        <input type="text" style="width: 100px;">
+                        <button type="button" class="btn btn-secondary"
+                            style="background-color:rgb(94, 22, 22) ;">+</button>
+                    </div>
+                </div>
+            </li>
+            <li  class="cartpic1">
+                <div class="card" style="border: 1px rgb(94, 22, 22) solid;">
+                    <img src="images/khaddar.jpg" height="300px" class="card-img" alt="...">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary"
+                            style="background-color:rgb(94, 22, 22) ;">-</button>
+                        <input type="text" style="width: 100px;">
+                        <button type="button" class="btn btn-secondary"
+                            style="background-color:rgb(94, 22, 22) ;">+</button>
+                    </div>
+                </div>
+            </li>
+            <li  class="cartpic1">
+                <div class="card" style="border: 1px rgb(94, 22, 22) solid;">
+                    <img src="images/khaddar.jpg" height="300px" class="card-img" alt="...">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary"
+                            style="background-color:rgb(94, 22, 22) ;">-</button>
+                        <input type="text" style="width: 100px; ">
+                        <button type="button" class="btn btn-secondary"
+                            style="background-color:rgb(94, 22, 22) ;">+</button>
+                    </div>
+                </div>
+            </li>
+            <li  class="cartpic1">
+                <div class="card" style="border: 1px rgb(94, 22, 22) solid;">
+                    <img src="images/khaddar.jpg" height="300px" class="card-img" alt="...">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary"
+                            style="background-color:rgb(94, 22, 22) ;">-</button>
+                        <input type="text" style="width: 100px;">
+                        <button type="button" class="btn btn-secondary"
+                            style="background-color:rgb(94, 22, 22) ;">+</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <p style="margin-left: 80px;">Your total would be: <br>
+        <input type="text"></p>
+
+
+    </div>
+    <form class="cartwo" action="">
+        <table>
+            <tr>
+                <td>
+                    FIRST NAME
+                </td>
+                <td>
+                    <input required type="text" placeholder="Enter first name" name="name" maxlength="30"> (max 30
+                    character a-z and A-Z)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    LAST NAME
+                </td>
+                <td>
+                    <input required type="text" placeholder="Enter last name" name="lstname" maxlength="30"> (max 30
+                    character a-z and A-Z)
+                </td>
+            </tr>
+            <tr>
+                <td>EMAIL ID</td>
+                <td> <input type="text" placeholder="Enter Email address" name="email" maxlength="30"> </td>
+
+            </tr>
+            <tr>
+                <td>
+                    MOBILE NUMBER
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter mobile number" name="num" maxlength="10"> (10 digit number)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ADDRESS
+                </td>
+                <td>
+                    <textarea name="address" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    CITY
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter city name" name="cityname" maxlength="30"> (max 30 character
+                    a-z and A-Z)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    PINCODE
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter pincode" name="pin" maxlength="6"> (6 digit number)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    How would you like to pay:
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="cod">  COD
+                    <input type="radio" name="visa">  VISA
+                    <input type="radio" name="online">  Easypaisa
+                </td>
+            </tr>
+            
+        </table>
+        <center>
+            <button  type="submit" class="cartbtn" >Submit</button>
+            <input class="cartbtn" type="reset" name="reset">
+        </center>
+    </form>
+
+
+
+</body>
+
+</html>

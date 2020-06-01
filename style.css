@@ -1,0 +1,122 @@
+.navbar{
+    display: flex !important;
+    flex-direction: column !important;
+    background-color:rgb(153, 45, 45) !important;
+    
+   
+}
+.navbar-brand{
+    font-family: 'Dancing Script'!important;
+    font-size: 50px !important;
+    color: palegoldenrod !important;
+}
+
+.nav-link{
+    color: palegoldenrod !important;
+}
+
+.card{
+    width: 200px;
+    
+}
+.card:hover{
+    width: 250;
+    background-color: rgb(153, 45, 45);
+    color: palegoldenrod;
+    border: rgb(94, 22, 22) 1px solid;
+}
+
+.about{
+    background-color: rgb(153, 45, 45);
+    font-family: 'Dancing Script'; 
+    border-bottom: rgb(247, 244, 221) 1px solid;
+    text-align: center;
+    color: rgb(247, 244, 221);
+    padding: 30px;
+}
+
+
+.first{
+    background-color: rgb(153, 45, 45);
+    border-bottom: 1px solid rgb(247, 244, 221);
+    border-top: 1px solid rgb(247, 244, 221);
+    
+    
+}
+
+.firstone{
+    display: inline-block;
+    padding: 20px 50px 50px 50px;
+}
+
+
+.sec{
+    background-color: rgb(153, 45, 45);
+    border-bottom: 1px solid rgb(247, 244, 221);
+    align-items: center;
+    justify-content: center;
+}
+
+.secone{
+    display: inline-block;
+    margin: 10px 100px 30px 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.third{
+    background-color: rgb(94, 22, 22);
+    color: rgb(247, 244, 221);
+    display: flex;
+    justify-content: space-around
+}
+.thirdone{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.ssize{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.cartpic{
+    background-color: rgb(94, 22, 22);
+    padding: 50px;
+    color: sandybrown;
+}
+
+.cartone{
+    text-align: center; 
+    font-size: 80px;
+    background-color: rgb(153, 45, 45);
+    color: rgb(247, 244, 221);
+    font-family: 'Dancing Script' ;
+    
+}
+.cartpic1{
+    display: inline-block;
+    margin: 40px;
+}
+
+.cartwo{
+    background-color: rgb(153, 45, 45);
+    color: rgb(247, 244, 221);
+    padding: 30px;
+}
+
+td,tr{
+    padding: 5px;
+    
+}
+
+.cartbtn{
+    background-color: rgb(94, 22, 22);
+    color: rgb(247, 244, 221);
+    width: 100px;
+    height: 30px;
+    font-family: 'Rokkitt', serif;
+    margin: 40px 5px 0px 0px;
+    border: rgb(153, 45, 45) 1px outset;
+}
